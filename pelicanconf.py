@@ -23,8 +23,8 @@ AUTHOR_FEED_RSS = None
 LINKS = ()
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('twitter', 'http://twitter.com/arnawldo'),
+          ('github', 'http://github.com/arnawldo'))
 
 DEFAULT_PAGINATION = 10
 
@@ -42,7 +42,7 @@ NOTEBOOK_DIR = 'notebooks' # within content folder
 
 # site tracking and commentting
 GOOGLE_ANALYTICS_UNIVERSAL = 'UA-88394833-2'
-DISQUS_SITENAME = 'arnawldo'
+DISQUS_SITENAME = 'arnolds-notes'
 
 # about me
 ABOUT_ME = 'I\'m Arnold Taremwa, trained in the geosciences. I like to get my hands dirty with data, using statistics and visualizations to derive meaning from it.'
@@ -50,5 +50,8 @@ ABOUT_ME = 'I\'m Arnold Taremwa, trained in the geosciences. I like to get my ha
 # license
 CC_LICENSE = "CC-BY"
 
+# social buttoons
 ADDTHIS_PROFILE = "ra-59254803a645d109"
+
+
 
