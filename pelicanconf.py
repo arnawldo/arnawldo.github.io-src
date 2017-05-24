@@ -35,8 +35,20 @@ DEFAULT_PAGINATION = 10
 THEME = 'themes/pelican-bootstrap3'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['i18n_subsites']
+PLUGINS = ['i18n_subsites', 'liquid_tags.notebook']
 
+# notebook settings
+NOTEBOOK_DIR = 'notebooks' # within content folder
+
+# site tracking and commentting
 GOOGLE_ANALYTICS_UNIVERSAL = 'UA-88394833-2'
 DISQUS_SITENAME = 'arnawldo'
+
+# about me
+ABOUT_ME = 'I\'m Arnold Taremwa, trained in the geosciences. I like to get my hands dirty with data, using statistics and visualizations to derive meaning from it.'
+
+# license
+CC_LICENSE = "CC-BY"
+
+ADDTHIS_PROFILE = "ra-59254803a645d109"
 
